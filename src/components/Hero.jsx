@@ -2,13 +2,13 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
-    <section className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 py-16 px-6">
+    <section className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 py-10 md:py-16 px-6">
       <div className="flex justify-center">
         <img src="/logo.png" alt="K2 Taj" className="" />
       </div>
 
-      <div className="flex flex-col justify-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+      <div className="flex flex-col justify-center text-center md:text-start">
+        <h2 className="text-3xl text-center sm:text-start md:text-4xl font-bold text-primary mb-4">
           <Typewriter
             words={[
               "Biryanis",
@@ -30,7 +30,7 @@ export default function Hero() {
           A very popular local establishment which has been around for over 20
           years, providing a wide range of quality food in Burnley
         </p>
-        <button className="bg-primary font-medium cursor-pointer text-white px-6 py-3 rounded w-fit">
+        <button className="bg-primary mx-auto sm:mx-0 font-medium cursor-pointer text-white px-6 py-3 rounded w-fit">
           View Menu
         </button>
       </div>

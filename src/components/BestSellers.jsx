@@ -26,7 +26,7 @@ export default function BestSellers() {
   return (
     <section id="best-seller" className="container mx-auto px-4 py-10 md:py-16">
       <div className="text-center">
-        <h3 className="text-2xl md:text-5xl font-dancing font-extrabold text-primary mb-16">
+        <h3 className="text-4xl md:text-5xl font-dancing font-extrabold text-primary mb-10 md:mb-16">
           Best Sellers
         </h3>
 
