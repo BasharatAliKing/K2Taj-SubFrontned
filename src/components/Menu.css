@@ -1,0 +1,38 @@
+/* Pagination dots */
+.swiper-pagination {
+  bottom: -45px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #d1d5db;
+  opacity: 1;
+  margin: 0 6px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #facc15;
+}
+
+/* Navigation arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 32px;
+  height: 32px;
+  color: #facc15;
+}
+
+.swiper-button-prev {
+  left: -10px;
+}
+
+.swiper-button-next {
+  right: -50px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;
+  font-weight: bold;
+}
