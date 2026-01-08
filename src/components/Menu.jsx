@@ -59,7 +59,7 @@ export default function Menu() {
           <button
             key={index}
             onClick={() => setSelectedCategory(val.categoryname)}
-            className={`px-4 py-2 rounded-md text-sm sm:text-base font-medium capitalize transition
+            className={`px-4 py-2 rounded-md cursor-pointer text-sm sm:text-base font-medium capitalize transition
               ${
                 selectedCategory === val.categoryname
                   ? "bg-[#4a4a4ad8] text-white"

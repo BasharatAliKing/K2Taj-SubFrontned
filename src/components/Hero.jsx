@@ -30,9 +30,9 @@ export default function Hero() {
           A very popular local establishment which has been around for over 20
           years, providing a wide range of quality food in Burnley
         </p>
-        <button className="bg-primary mx-auto sm:mx-0 font-medium cursor-pointer text-white px-6 py-3 rounded w-fit">
+        <a href="#food-menu" className="bg-primary mx-auto sm:mx-0 font-medium cursor-pointer text-white px-6 py-3 rounded w-fit">
           View Menu
-        </button>
+        </a>
       </div>
     </section>
   );
