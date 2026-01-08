@@ -5,8 +5,8 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-primary container">
-      <nav className="mx-auto text-white px-6 py-3 flex justify-between items-center">
+    <div className="bg-primary container pb-0">
+      <nav className="mx-auto text-white md:px-6 py-3 flex justify-between items-center">
         
         {/* Logo */}
         <img src="/logo.png" className="h-12" alt="Logo" />
