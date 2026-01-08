@@ -43,7 +43,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden absolute w-full duration-500 bg-primary text-white px-6 py-4 space-y-4">
+        <div className="md:hidden absolute left-0 w-full duration-500 bg-primary text-white px-6 py-4 space-y-4">
           <a href="#best-seller" onClick={()=>{setOpen(false)}} className="block text-base">Popular</a>
           <a href="#food-menu" onClick={()=>{setOpen(false)}} className="block text-base">Food Menu</a>
           <a href="#contact-us" onClick={()=>{setOpen(false)}} className="block text-base">Contact Us</a>
