@@ -70,7 +70,7 @@ export default function BestSellers() {
                     </h4>
 
                     {/* FIXED HEIGHT DESCRIPTION */}
-                    <p className="text-sm text-[#b1b1b1] mt-2 min-h-[60px]">
+                    <p className="text-sm text-charkol mt-2 min-h-[60px]">
                       {item.description
                         ? item.description
                             .split(" ")
@@ -83,7 +83,7 @@ export default function BestSellers() {
                     <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-yellow to-transparent my-4" />
 
                     {/* Price */}
-                    <p className="text-yellow text-xl font-extrabold mt-auto">
+                    <p className="text-charkol text-xl font-extrabold mt-auto">
                       £{item.price}
                     </p>
                   </div>

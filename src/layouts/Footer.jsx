@@ -26,19 +26,19 @@ export default function Footer() {
               Contact Us
             </h3>
 
-            <p className="flex gap-3 text-primary font-medium items-start sm:items-center text-sm sm:text-base">
+            <p className="flex gap-3 text-charkol font-medium items-start sm:items-center text-sm sm:text-base">
               <MapPin size={22} className="shrink-0" />
               <span>
                 167 Briercliffe Road, Burnley, Lancashire, BB10 1UY, United Kingdom
               </span>
             </p>
 
-            <p className="flex gap-3 text-primary font-medium items-center text-sm sm:text-base">
+            <p className="flex gap-3 text-charkol font-medium items-center text-sm sm:text-base">
               <Phone size={22} className="shrink-0" />
               01282 432611
             </p>
 
-            <p className="flex gap-3 text-primary font-medium items-center cursor-pointer text-sm sm:text-base hover:underline">
+            <p className="flex gap-3 text-charkol font-medium items-center cursor-pointer text-sm sm:text-base hover:underline">
               <Pencil size={22} className="shrink-0" />
               Leave a Review
             </p>
@@ -47,7 +47,7 @@ export default function Footer() {
       </footer>
 
       {/* Copyright */}
-      <p className="text-center text-xs sm:text-sm font-light md:text-base py-2 bg-primary text-gray-100">
+      <p className="text-center text-xs sm:text-sm font-light md:text-base py-2 bg-primary text-charkol">
         Copyright © <b>K2 Taj</b>, All Rights Reserved.
       </p>
     </>

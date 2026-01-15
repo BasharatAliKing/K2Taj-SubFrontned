@@ -115,11 +115,10 @@ function MenuItem({ id, img, name, desc, price }) {
           <h4 className="font-bold text-base sm:text-lg uppercase">
             {name}
           </h4>
-          <span className="font-bold text-primary text-sm sm:text-base">
+          <span className="font-bold text-charkol text-sm sm:text-base">
             {price}
           </span>
         </div>
-
         <p className="text-sm sm:text-base text-gray-500 leading-relaxed">
           {desc?.split(" ").slice(0, 18).join(" ")}
           {desc?.split(" ").length > 18 && " ..."}

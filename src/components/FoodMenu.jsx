@@ -114,7 +114,7 @@ function MenuItem({ id, img, name, desc, price }) {
       <div className="w-full">
         <div className="border-b-[2px] border-dotted flex justify-between items-center">
           <h4 className="font-bold text-lg uppercase ">{name}</h4>
-          <span className="font-bold text-yellow">{price}</span>
+          <span className="font-bold text-charkol">{price}</span>
         </div>
         <p className="text-sm sm:text-base md:text-lg font-light text-gray-300">
           {" "}
