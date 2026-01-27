@@ -105,7 +105,7 @@ function MenuItem({ id, img, name, desc, price }) {
       {/* Image */}
       <img
         src={`${API_URL}/${img}`}
-        className="w-22 h-full sm:w-28 sm:h-28 object-cover rounded-md"
+        className="w-22 h-full  sm:w-28 sm:h-28 object-cover rounded-md"
         alt={name}
       />
 
