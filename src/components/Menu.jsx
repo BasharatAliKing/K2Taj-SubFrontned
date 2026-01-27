@@ -100,12 +100,12 @@ function MenuItem({ id, img, name, desc, price }) {
   return (
     <Link
       to={`/product-details/${id}`}
-      className="flex flex-col sm:flex-row items-center gap-4 p-4 rounded-lg hover:bg-gray-50 transition"
+      className="flex flex-row items-center gap-1 sm:gap-4 pl-0 sm:pl-4 sm:p-4 rounded-lg hover:bg-gray-50 transition"
     >
       {/* Image */}
       <img
         src={`${API_URL}/${img}`}
-        className="w-40 h-40 sm:w-28 sm:h-28 object-cover rounded-md"
+        className="w-22 h-full sm:w-28 sm:h-28 object-cover rounded-md"
         alt={name}
       />
 
