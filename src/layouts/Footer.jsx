@@ -4,8 +4,14 @@ export default function Footer() {
   return (
     <>
       <footer id="contact-us" className="bg-white container">
+         <div id="flipdish-menu" data-restaurant="br10551"></div>
+      <script
+        id="flipdish-script"
+        type="text/javascript"
+        charset="UTF-8"
+        src="https://web-order.flipdish.co/client/productionwlbuild/latest/static/js/main.js"
+      ></script>
         <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-6 py-10">
-          
           {/* Location */}
           <div className="relative flex flex-col gap-5">
             <h3 className="font-dancing font-bold text-primary text-2xl sm:text-3xl relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-[50px] after:h-[2px] after:bg-primary">
@@ -28,14 +34,12 @@ export default function Footer() {
 
             <p className="flex gap-3 text-charkol font-medium items-start sm:items-center text-sm sm:text-base">
               <MapPin size={22} className="shrink-0" />
-              <span>
-                167 Briercliffe Road, Burnley, Lancashire, BB10 1UY, United Kingdom
-              </span>
+              <span>51-53 Plane street, BB1 6LR, Blackburn, Lanachire.</span>
             </p>
 
             <p className="flex gap-3 text-charkol font-medium items-center text-sm sm:text-base">
               <Phone size={22} className="shrink-0" />
-              01282 432611
+              01254675899
             </p>
 
             <p className="flex gap-3 text-charkol font-medium items-center cursor-pointer text-sm sm:text-base hover:underline">
@@ -45,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-
+     
       {/* Copyright */}
       <p className="text-center text-xs sm:text-sm font-light md:text-base py-2 bg-primary text-charkol">
         Copyright © <b>K2 Taj</b>, All Rights Reserved.
