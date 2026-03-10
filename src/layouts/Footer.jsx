@@ -1,16 +1,12 @@
 import { MapPin, Pencil, Phone } from "lucide-react";
 
 export default function Footer() {
+  
   return (
     <>
       <footer id="contact-us" className="bg-white container">
          <div id="flipdish-menu" data-restaurant="br10551"></div>
-      <script
-        id="flipdish-script"
-        type="text/javascript"
-        charset="UTF-8"
-        src="https://web-order.flipdish.co/client/productionwlbuild/latest/static/js/main.js"
-      ></script>
+     
         <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-6 py-10">
           {/* Location */}
           <div className="relative flex flex-col gap-5">
